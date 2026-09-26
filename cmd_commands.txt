@@ -1,0 +1,56 @@
+===================================================================
+                  MKDOCS & GIT COMMAND CHEAT SHEET
+===================================================================
+
+-------------------------------------------------------------------
+1. LOKAL TESTEN (Entwicklung)
+-------------------------------------------------------------------
+# Lokalen Test-Server starten (im Browser öffnen: http://127.0.0.1:8000)
+mkdocs serve
+
+# Server wieder stoppen:
+# Drücke im Terminal: Strg + C
+
+
+-------------------------------------------------------------------
+2. NEUE INHALTE VERÖFFENTLICHEN (Auf GitHub Pages)
+-------------------------------------------------------------------
+# Schritt A: Änderungen im Git-Repository speichern
+git add .
+git commit -m "Neue Abhandlung hinzugefuegt"
+git push origin main
+
+# Schritt B: Webseite aktualisieren und auf GitHub Pages hochladen
+mkdocs gh-deploy
+
+
+-------------------------------------------------------------------
+3. NAVIGIEREN IM TERMINAL (CMD / PowerShell)
+-------------------------------------------------------------------
+# In das Projektverzeichnis wechseln (Pfad anpassen)
+cd C:\Pfad\zu\deinem\Projektordner
+
+# Eine Ordner-Ebene nach oben gehen
+cd ..
+
+# Inhalt des aktuellen Ordners anzeigen (Windows CMD)
+dir
+
+# Inhalt des aktuellen Ordners anzeigen (PowerShell / macOS)
+ls
+
+
+-------------------------------------------------------------------
+4. INITIALES SETUP (Nur beim allerersten Mal nötig)
+-------------------------------------------------------------------
+# MkDocs und Material-Theme installieren
+pip install mkdocs mkdocs-material
+
+# Lokales Git-Repository mit GitHub verbinden
+git init
+git add .
+git commit -m "Initialer Commit"
+git branch -M main
+git remote add origin DEIN_GITHUB_REPOSITORY_LINK
+git push -u origin main
+===================================================================
