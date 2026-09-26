@@ -1,0 +1,44 @@
+site_name: Physikalische Abhandlungen & Skripte
+site_description: Einführende Arbeiten und Übersichten zu Themen der Physik und Mathematik.
+site_author: Noé Hennen
+
+theme:
+  name: material
+  language: de
+  palette:
+    # Helles / Dunkles Design Umschalter
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Zum dunklen Design wechseln
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Zum hellen Design wechseln
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+# LaTeX-Formel-Unterstützung (MathJax)
+markdown_extensions:
+  - attr_list 
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Navigationsstruktur
+nav:
+  - Startseite: index.md
+  - Abhandlungen:
+      - Das Prinzip der kleinsten Wirkung: abhandlungen/mechanik.md
+     # - Klassische Mechanik: abhandlungen/mechanik.md

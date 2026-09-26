@@ -1,0 +1,14 @@
+# MkDocs Build-Ordner (wird von MkDocs dynamisch erzeugt)
+site/
+
+# Python Cache-Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
