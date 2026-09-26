@@ -54,7 +54,3 @@ git branch -M main
 git remote add origin DEIN_GITHUB_REPOSITORY_LINK
 git push -u origin main
 ===================================================================
-
-git add .
-git commit -m "Änderungen an der Webseite"
-git push

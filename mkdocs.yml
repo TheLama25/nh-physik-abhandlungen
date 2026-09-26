@@ -40,5 +40,5 @@ extra_javascript:
 nav:
   - Startseite: index.md
   - Abhandlungen:
-      - Das Prinzip der kleinsten Wirkung: abhandlungen/mechanik.md
+      - Das Prinzip der kleinsten Wirkung: abhandlungen/Prinzip_der_kleinsten_Wirkung.md
      # - Klassische Mechanik: abhandlungen/mechanik.md
