@@ -7,7 +7,7 @@ Das Prinzip der kleinsten Wirkung wird in der modernen Physik über das sogenann
 
 $$ S = \int \mathcal{L} \;\text{d}t $$
 
-soll für die Trajektorie, die das Teilchen einschlägt, stationär werden
+soll für die Trajektorie, die das Teilchen einschlägt, stationär werden.
 
 Die wohl essenziellste Gleichung der Lagrange-Mechanik und Mechanik überhaupt ist (natürlich immernoch hinter $F = ma$) wohl die Euler-Lagrange Gleichung:
 
