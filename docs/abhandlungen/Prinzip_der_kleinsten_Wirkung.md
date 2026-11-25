@@ -11,7 +11,7 @@ soll für die Trajektorie, die das Teilchen einschlägt, stationär werden.
 
 Die wohl essenziellste Gleichung der Lagrange-Mechanik und Mechanik überhaupt ist (natürlich immernoch hinter $F = ma$) wohl die Euler-Lagrange Gleichung:
 
-$$ \frac{\text{d}}{\text{d}t} \frac{\partial \mathcal{L}}{\partial \dot{q}_k} - \frac{\partial \mathcal{L}}{\partial q_k} = 0. $$
+$$ \frac{\text{d}}{\text{d}t} \frac{\partial \mathcal{L}}{\partial \dot{q}_j} - \frac{\partial \mathcal{L}}{\partial q_j} = 0. $$
 
 Ein zentraler Punkt dieser Abhandlung ist die Herleitung der Euler-Lagrange Gleichung aus dem Hamilton-Prinzip.
 
@@ -29,5 +29,5 @@ Um diese Abhandlung verstehen zu können, sollte man sich das folgende Grundwiss
 
 ## Vollständige Abhandlung
 
-[PDF-Dokument herunterladen (2,4 MB)](../pdfs/Das_Prinzip_der_kleinsten_Wirkung.pdf){ .md-button .md-button--primary }
+Aufgrund von Korrekturarbeiten wird die Abhandlung vorerst nicht mehr zur Verfügung stehen. 
 
