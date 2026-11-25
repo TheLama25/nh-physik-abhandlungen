@@ -7,3 +7,6 @@ git commit -m "Änderungen an der Webseite"
 git push
 mkdocs gh-deploy
 
+Hier der Code für den PDF Button: 
+
+[PDF-Dokument herunterladen (2,4 MB)](../pdfs/Das_Prinzip_der_kleinsten_Wirkung.pdf){ .md-button .md-button--primary }
